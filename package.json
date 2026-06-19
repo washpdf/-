@@ -1,0 +1,17 @@
+{
+    "name": "aliyun-bailian-proxy",
+    "version": "1.0.0",
+    "description": "阿里云百炼API代理（解决CORS问题）",
+    "main": "proxy.js",
+    "scripts": {
+        "start": "node proxy.js",
+        "dev": "node proxy.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "node-fetch": "^2.7.0"
+    },
+    "author": "",
+    "license": "MIT"
+}
